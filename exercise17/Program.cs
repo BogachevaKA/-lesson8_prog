@@ -36,12 +36,12 @@ void SortArray(int[,] array)
         {
             for (int z = 0; z < array.GetLength(1) - 1; z++)
             {
-                if (array[i, z] < array[i, z + 1]) //для изменения сортировки поменять знак < на противоположный
+                if (array[i, z] < array[i, z + 1])
                 {
-                    int temp = 0;
-                    temp = array[i, z];
+                    int sort = 0;
+                    sort = array[i, z];
                     array[i, z] = array[i, z + 1];
-                    array[i, z + 1] = temp;
+                    array[i, z + 1] = sort;
                 }
             }
         }
