@@ -60,5 +60,4 @@ int[,] array = new int[rows, cols];
 FillArray(array);
 Console.WriteLine("Массив до изменения");
 PrintArray(array);
-//Console.WriteLine();
 SortArray(array);
